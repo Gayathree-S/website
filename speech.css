@@ -1,0 +1,91 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+    width:100%;
+    min-height:100vh;
+    background:linear-gradient(45deg,#137136,#490d61);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: wheat;
+}
+.hero h1{
+    font-size: 45px;
+    font-weight: 500;
+    margin-top: -50px;
+    margin-bottom: 50px;
+
+}
+.hero h1 span{
+    color:rgb(7, 182, 226);
+
+}
+textarea{
+    width: 600px;
+    height: 250px;
+    background: #101a2e;
+    color: white;
+    font-size: 15px;
+    border:0;
+    outline: 0;
+    padding: 20px;
+    border-radius: 10px;
+    resize: none;
+    margin-bottom: 30px;
+
+}
+textarea::placeholder{
+    font-size: 10px;
+    color:#ddd
+}
+.row{
+    
+    width:600px;
+    display:flex;
+    align-items: center;
+    gap: 20px;
+
+}
+.playbutton{
+    width:0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left:15px solid #fff;
+
+}
+button{
+         
+         
+    
+    background:#180c34;
+    color: #fff;
+    font-size :16px;
+    padding: 10px 30px ;
+    border-radius: 35px;
+    border:0;
+    outline:0;
+    cursor:pointer;
+    display: flex;
+    align-items: center;
+    
+
+}
+select{
+    max-width:auto;      
+    left:0; 
+    flex: 1;
+    color: #fff;
+    background: #0b0935;
+    height:40px;
+    padding:0 20px;
+    outline: 0;
+    border: 0;
+    border-radius: 35px;
+    
+}
